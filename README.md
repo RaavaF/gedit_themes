@@ -1,8 +1,14 @@
 # gedit_themes
 
-I use this [generator](https://scribes.sourceforge.net/themegenerator.php) to create all my themes.
+I use this [generator](https://scribes.sourceforge.net/themegenerator.php) as a base for all my themes.
 
-![A purple and green theme in gedit.](screenshot.png?raw=true "Superficial Royal")
+## Screenshots
 
-###### The Superfical Royal theme.
+### Superficial Royal
 
+![The program gedit opened with the color scheme of purple and green.](screenshots/superficial-royal.png?raw=true "Superficial Royal")
+
+
+### Matcha Milk Tea
+
+![The program gedit with a green color scheme.](screenshots/matcha-milk-tea.png?raw=true "Superficial Royal")

@@ -1,33 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<style-scheme id="superficial_royal" _name="Superficial Royal" version="1.0">
+<style-scheme id="matcha-milk-tea" _name="Matcha Milk Tea" version="1.0">
 	<author>RaavaF</author>
-	<_description>Generator I used: https://scribes.sourceforge.net/themegenerator.php</_description>
+	<_description>Pinecones</_description>
 
-<!-- Scribe Theme Generator 1.3 -->
 
 <!-- COLORS -->
-	<color name="comment_color" value="#77807c"/>
-	<color name="number_color" value="#bfd46c"/>
-	<color name="string_color" value="#bfd46c"/>
-	<color name="boolean_color" value="#ffea63"/>
-	<color name="keyword_color" value="#c08de3"/>
-	<color name="error_color" value="#ff0000"/>
+	<color name="comment_color" value="#64736e"/>
+	<color name="number_color" value="#89b9cb"/>
+	<color name="string_color" value="#89b9cb"/>
+	<color name="boolean_color" value="#5bd167"/>
+	<color name="keyword_color" value="#f0cea0"/>
+	<color name="error_color" value="#db2b39"/>
 	<color name="text_fg" value="#f8f8f8"/>
-	<color name="text_bg" value="#151515"/>
-	<color name="line_highlight" value="#3f3f3f"/>
+	<color name="text_bg" value="#142617"/>
+	<color name="line_highlight" value="#1c4020"/>
+	<color name="mouse_highlight" value="#43994D"/>
+	<color name="bracket_bg" value="#3D7346"/>
+	
+
 
 <!-- Global Settings -->
 	<style name="text" foreground="text_fg" background="text_bg"/>
-	<style name="cursor" foreground="error_color"/>
+	<style name="cursor" foreground="text_fg"/>
 	<style name="current-line" background="line_highlight"/>
 	<style name="line-numbers" foreground="text_bg" background="keyword_color"/>
-	<style name="selection" foreground="text_fg" background="keyword_color"/>
+	<style name="selection" foreground="text_fg" background="mouse_highlight"/>
 
 <!-- Bracket Matching -->
-	<style name="bracket-match" foreground="text_bg" background="keyword_color"/>
+	<style name="bracket-match" foreground="text_bg" background="bracket_bg"/>
 	<style name="bracket-mismatch" background="error_color"/>
-	<style name="search-match" foreground="comment_color" background="text_fg" italic="true"/>
+	<style name="search-match" foreground="text_fg" background="bracket_bg" italic="true"/>
 
 <!-- Base syntax colors
 
